@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+    int x,n=-1;
+    printf("x = ");
+    scanf("%d",&x);
+    int t=x;
+    //判断并循环
+    if(x>0)
+    {
+        do
+        {
+            x/=2;
+            n++;
+        }while(x>0);
+        printf("log2 of %d = %d\n",t,n);
+    }
+    else
+    {
+        printf("你输入的数不在函数的定义域范围内，请重新输入！\n");
+    }
+    
+    return 0;
+}
