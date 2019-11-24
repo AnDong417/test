@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    int x;
+    int sum=0;
+    int count=0;
+    
+    do
+    {
+        printf("number = ");
+        scanf("%d",&x);
+        if(x!=-1)
+        {
+            count++;
+            sum+=x;
+        }
+    }while(x!=-1);
+    printf("平均数 = %f\n",1.0*sum/count);
+    
+    return 0;
+}
