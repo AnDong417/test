@@ -1,0 +1,19 @@
+#include<stdio.h>
+#define M 5
+
+int main()
+{
+    int i;
+    int code[M];
+    for(i=0;i<M;i++)
+    {
+        printf("请输入一个数：");
+        scanf("%d",&code[i]);
+    }
+    for(i=0;i<M;i++)
+    {
+        printf("code[%d]=%d\n",i,code[i]);
+    }
+    
+    return 0;
+}
