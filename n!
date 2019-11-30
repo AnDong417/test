@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int i,n;
+    long t=1;
+    printf("n = ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        t*=i;
+    }
+    printf("%d!等于%ld\n",n,t);
+    
+    return 0;
+}
